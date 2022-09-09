@@ -1,0 +1,50 @@
+html{
+    background-color: silver;
+    text-align: justify;
+}
+body{
+    margin-left:10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../img/bg.png);
+    height: 95%;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#bemutatkozoflex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+h1{
+    padding-left: 2%;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    padding-left: 2%;
+}
+img{
+    height: 10%;
+    width: 10%;
+    align-self: flex-start;
+    border-radius: 50%;
+    padding-right: 2%;
+}
+p, form, a{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+button{
+    margin-left: 12%;
+}

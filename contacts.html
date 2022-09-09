@@ -9,16 +9,25 @@
 </head>
 <body>
     <header>
-        <img src="img/avatars-000510931248-u9fjgt-t500x500.jpg" alt="">
         <h1>Kocsis Dávid</h1>
+        <img src="img/avatars-000510931248-u9fjgt-t500x500.jpg" alt="">
     </header>
-    <div id="bemutatkozoflex">
-        
-        <h3>Bemutatkozás</h3>
+    <div>
+        <h3>Kapcsolati oldal</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis cupiditate adipisci numquam repellendus, aperiam magnam porro eveniet. Recusandae cum quisquam, perferendis consequatur iure at fugiat reiciendis repudiandae minima quidem facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat omnis maxime temporibus quo optio repellat provident nulla! Repellat similique ipsa sed unde fugit itaque, asperiores quidem error cumque eaque cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae enim, natus sapiente optio aliquam harum obcaecati a repellendus quam, facilis, modi veniam? Cumque doloribus fugit, blanditiis excepturi cum ut assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rem esse incidunt culpa a nostrum nisi natus necessitatibus? Optio, nulla consequatur? Enim voluptate placeat maxime porro quo blanditiis nostrum facilis!</p>
+        <form action="message" method="post">
+            <label for="name">Név: </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">E-mail cím: </label>
+            <input type="text" name="email" id="email"><br>
+            <label for="message">Üzenet: </label>
+            <textarea name="uzenet" id="message" cols="30" rows="10"></textarea><br>
+            <button id="" type="submit">Küldés</button>
+        </form>
+        <br>
+        <a href="/">-Bemutatkozó oldal</a>
         <br>
         <a href="/hobbi">-Hobbi oldal</a>
-        <a href="/contacts">-Kapcsolati oldal</a>
     </div>
     <script src="index.js"></script>
 </body>
